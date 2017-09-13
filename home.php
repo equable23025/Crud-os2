@@ -19,7 +19,7 @@
                 <table class="table table-striped table-bordered">
                   <thead>
                     <tr>
-                      <th>Id</th>
+                      
                       <th>Name</th>
                       <th>Price</th>
                       <th>Quality</th>
@@ -40,7 +40,7 @@
                             // echo '<pre>';
                             // print_r($row);
                             echo '<tr>';
-                            echo '<td>'. $row['Id'] . '</td>';
+                            
                             echo '<td>'. $row['Name_Item'] . '</td>';
 					   		            echo '<td>'. $row['Price'] . '</td>';
 					   		            echo '<td>'. $row['Quality'] . '</td>';
